@@ -1,9 +1,6 @@
-function saudacao(nome) {
-    console.log(`Bom diaa ${nome}!`)
+function soma(x, y) {
+    const resultado = x + y
+    return resultado
 }
 
-saudacao("Heder")
-saudacao("Mona")
-saudacao("Jay")
-
-
+console.log(soma(2, 2023))
