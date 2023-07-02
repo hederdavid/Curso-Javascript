@@ -1,6 +1,7 @@
-alert('Iremos calcular a média das suas notas, lembrando que a primeira nota tem peso 2, a segunda tem peso de 3 e a terceira tem o peso 5.')
-const nota1 = parseFloat(prompt('Insira a primeira nota:'))
-const nota2 = parseFloat(prompt('Insira a segunda nota nota:'))
-const nota3 = parseFloat(prompt('Insira a terceira nota nota:'))
-const media = (nota1 * 2 + nota2 * 3 + nota3 * 5) / 10
-alert(`Sua média final é: ${media.toFixed(2)}`)
+alert('Programa criado com a finalidade de calcular seu salário')
+const dinheiroPorHora = parseFloat(prompt('Insira quantos reais você recebe por hora trabalhada:'))
+const hora = parseFloat(prompt('Quantas horas você pretende trabalhar por dia, em média nesse mês?'))
+const horasTrabalhadasNoMes = hora * 22
+const salario = horasTrabalhadasNoMes * dinheiroPorHora
+alert(`Trabalhando ${hora} horas por dia em média, ao final do mês você trabalhará ${horasTrabalhadasNoMes} horas por mês e recebera de salário ${salario} reais.`)
+alert('Detalhe, salário baseado em um mês de 30 dias, e não trabalhando sábado e domingo.')
